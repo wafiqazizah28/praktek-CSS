@@ -1,0 +1,75 @@
+h1{
+    color: lightblue;
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    }
+ 
+ P{
+     text-indent: 30px;
+     Line-height: 1.5; 
+     font-size: 16px;
+     color: royalblue;
+     font-family: verdana; }
+ 
+ li{
+     color: cornflowerblue; 
+     font-size: 12px; 
+     font-family: cursive;} 
+     
+ img{
+     width: 200px;
+     height: 200px;
+ 
+     /*menengahkan gambar*/
+     display: block;
+     margin: 0px auto 0px auto;
+ 
+ }
+/*selector id*/
+#judul{
+    color: orange;
+}
+/*selector class*/
+.tengah{
+ align-self: center;
+ color: blue;
+}
+
+/*Multy selector*/
+h2, h3, h4 {
+ color: midnightblue;
+}
+
+/*lebih sepesifik lagi bisa*/
+h2.tengah{
+ color: pink;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: darkcyan
+}
+
+.button{
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(21, 101, 199);
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button:hover {background-color: rgb(144, 127, 255);}
+
+.button:active {
+    background-color: cadetblue;
+    box-shadow: 0 5px #666;
+}

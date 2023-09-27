@@ -1,0 +1,59 @@
+h1{
+   color: lightblue;
+   font-family: arial;
+   font-size: 50px;
+   text-align: center;
+   }
+
+P{
+    text-indent: 30px;
+    Line-height: 1.5; 
+    font-size: 16px;
+    color: royalblue;
+    font-family: verdana; }
+
+li{
+    color: cornflowerblue; 
+    font-size: 12px; 
+    font-family: cursive;} 
+    
+img{
+    width: 200px;
+    height: 200px;
+
+    /*menengahkan gambar*/
+    display: block;
+    margin: 0px auto 0px auto;
+
+}
+
+/*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah */
+/*syntax CSS adalah selector{properties: value;}*/
+
+/*selector dengan nama tag*/
+h1{
+    color:black;
+}
+
+/*selector id*/
+#judul{
+       color: orange;
+}
+/*selector class*/
+.tengah{
+    align-self: center;
+    color: blue;
+}
+
+/*Multy selector*/
+h2, h3, h4 {
+    color: midnightblue;
+}
+
+/*lebih sepesifik lagi bisa*/
+h2.tengah{
+    color: pink;
+}
+
+
+
